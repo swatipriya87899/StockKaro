@@ -1,0 +1,49 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+    padding:0px 1rem;
+    padding-top: 20px;
+}
+
+.main .main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .stock-details{
+    display: flex;
+    flex-direction: column
+}
+
+.main .stock-details>div{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.main .stock-details>div span{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.main .performance{
+    margin-top: 2rem;
+}
+
+.main .performance>div{
+    display: flex;
+    justify-content: space-between;
+    color: #45475B;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+  }

@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #246AFD; 
+  --white-color:#FFFFFF;
+  --secondary-color:#F3F6FB;
+  font-size: 20px;
+}
+
+header{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  :root{
+    font-size: 10px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
